@@ -1,0 +1,58 @@
+#header{
+width:100%;
+height:100vh;
+background-color:rgb(21,27,141);
+background-position:center;
+}
+ul{
+float:right;
+list-style-type:none;
+}
+ul li{
+display:inline;
+margin-right:30px;
+}
+ul li a{
+text-decoration:none;
+font-size:20px;
+padding:5px 20px;
+color:blue;
+border: 2px solid lightblue;
+}
+ul li a:hover{
+background-color:white;
+color:#000;
+}
+#logo img
+{
+width:20%;
+height:20vh;
+background-size:cover;
+background-position:center;
+border:5px solid lightblue;
+}
+#banner img
+{
+width:100%;
+height:100vh;
+background-size:cover;
+background-position:center;
+}
+#text
+{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%)
+}
+#text h1
+{
+font-size:50px;
+padding:5px 20px;
+color:blue;
+border: 2px solid black;
+font-style:italic;
+}
+#text h1:hover{
+background-color:white;
+}
